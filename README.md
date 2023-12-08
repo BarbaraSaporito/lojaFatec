@@ -1,58 +1,58 @@
-# Loja de Roupas - Atlética Fatec Ipiranga
+# Clothing Store - Atlética Fatec Ipiranga
 
-Bem-vindo à loja de roupas da Atlética Fatec Ipiranga! Este projeto é uma aplicação web construída com Spring Boot para o backend e Angular para o frontend. A loja oferece funcionalidades essenciais para gerenciar clientes, produtos, cestas de compras e pedidos.
+Welcome to the Clothing Store of the Atlética Fatec Ipiranga! This project is a web application built with Spring Boot for the backend and Angular for the frontend. The store offers essential functionalities to manage customers, products, shopping carts, and orders.
 
 <a href="https://imgur.com/UtmKs7D"><img src="https://i.imgur.com/UtmKs7D.png" title="source: imgur.com" /></a>
 
-## Funcionalidades
+## Features
 
-### 1. Cliente
-   - **Cadastro de Clientes:** Os usuários podem se cadastrar como clientes, fornecendo informações como nome, endereço e informações de contato.
+### 1. Customer
+   - **Customer Registration:** Users can register as customers, providing information such as name, address, and contact details.
 
-### 2. Produto
-   - **Gestão de Produtos:** Administradores podem adicionar, editar e excluir produtos da loja. Cada produto possui informações como nome, descrição, preço e quantidade em estoque.
+### 2. Product
+   - **Product Management:** Administrators can add, edit, and delete products from the store. Each product has information such as name, description, price, and stock quantity.
 
-### 3. Cesta
-   - **Cesta de Compras:** Os clientes podem adicionar produtos à cesta de compras enquanto navegam pela loja.
+### 3. Cart
+   - **Shopping Cart:** Customers can add products to the shopping cart while browsing the store.
 
-### 4. Pedido
-   - **Realização de Pedidos:** Os clientes podem revisar os itens em sua cesta e efetuar pedidos, fornecendo detalhes de entrega.
+### 4. Order
+   - **Order Placement:** Customers can review the items in their cart and place orders, providing delivery details.
 
-## Estrutura do Projeto
+## Project Structure
 
-O projeto está organizado em diversos diretórios, cada um responsável por uma funcionalidade específica. Além disso, há arquivos principais que desempenham papéis cruciais na aplicação.
+The project is organized into various directories, each responsible for a specific functionality. Additionally, there are main files that play crucial roles in the application.
 
-### Diretórios
+### Directories
 
-1. **cliente:** Contém os arquivos relacionados à funcionalidade de clientes.
-2. **produto:** Gerencia os produtos disponíveis na loja.
-3. **cesta:** Responsável pela lógica da cesta de compras.
-4. **pedido:** Envolve a realização e processamento de pedidos.
+1. **customer:** Contains files related to the customer functionality.
+2. **product:** Manages the products available in the store.
+3. **cart:** Responsible for the logic of the shopping cart.
+4. **order:** Involves the placement and processing of orders.
 
-### Arquivos Principais
+### Main Files
 
-1. **AppController.java:** Controlador principal da aplicação Spring Boot.
-2. **ClienteComponent.ts:** Componente Angular para a gestão de clientes.
-3. **ProdutoService.java:** Serviço Spring Boot para a gestão de produtos.
-4. **CestaComponent.ts:** Componente Angular para a cesta de compras.
-5. **PedidoController.java:** Controlador Spring Boot para a realização de pedidos.
+1. **AppController.java:** Main controller of the Spring Boot application.
+2. **CustomerComponent.ts:** Angular component for customer management.
+3. **ProductService.java:** Spring Boot service for product management.
+4. **CartComponent.ts:** Angular component for the shopping cart.
+5. **OrderController.java:** Spring Boot controller for order placement.
 
-## Como Rodar o Projeto
+## How to Run the Project
 
-Siga estas instruções para rodar a aplicação em seu ambiente local:
+Follow these instructions to run the application on your local environment:
 
 1. **Backend (Spring Boot):**
-   - Navegue até o diretório `backend`.
-   - Execute o comando `./mvnw spring-boot:run` para iniciar o servidor.
+   - Navigate to the `backend` directory.
+   - Run the command `./mvnw spring-boot:run` to start the server.
 
 2. **Frontend (Angular):**
-   - Navegue até o diretório `frontend`.
-   - Execute o comando `ng serve` para iniciar o servidor de desenvolvimento.
+   - Navigate to the `frontend` directory.
+   - Run the command `ng serve` to start the development server.
 
-3. Abra o navegador e acesse `http://localhost:4200/` para visualizar a aplicação.
+3. Open your browser and access `http://localhost:4200/` to view the application.
 
-## Como Contribuir
+## How to Contribute
 
-Sua contribuição é valiosa para aprimorar esta loja de roupas! Se você tiver ideias, correções ou novas funcionalidades, fique à vontade para abrir uma issue ou enviar uma pull request.
+Your contribution is valuable to improve this clothing store! If you have ideas, corrections, or new features, feel free to open an issue or submit a pull request.
 
-Agradecemos por contribuir para a loja de roupas da Atlética Fatec Ipiranga! 🎉
+Thank you for contributing to the Atlética Fatec Ipiranga clothing store! 🎉
