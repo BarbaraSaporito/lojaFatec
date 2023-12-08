@@ -1,0 +1,19 @@
+.container {
+    margin-top: 5rem;
+    color: black
+}
+
+#login-form {
+    float: left;
+    width: 50%;
+}
+
+button{
+    margin-bottom: 1rem;
+}
+
+#cadastro-button {
+    float: right;
+    width: 50%;
+    text-align: center;
+}
